@@ -13,11 +13,11 @@ How to set this up on your server:
 Credits to Pavan Sagar (https://github.com/PavanSargar). Some snippets of the code were from https://waystoweb.com/weather-app-using-nodejs/
 
 Technologies Used:
-OpenWeatherMap One Call API 3.0 
-HTML
-CSS and BOOTSTRAP
-Express.js
-EJS
+OpenWeatherMap One Call API 3.0, 
+HTML,
+CSS and BOOTSTRAP,
+Express.js,
+EJS,
 Canva (Logo)
 
 
