@@ -1,0 +1,37 @@
+<%- include ("header") -%>
+
+
+    <div class="d-flex flex-column bg-body container-sm">
+        <div class="row flex-row justify-content-center">
+            <div class="col-3 bg-light">
+
+                <h1 class="title"> <%= result[0].city %>, <%= result[0].country %> </h1>
+
+                <p>Coordinates: <span> <%= result[0].lon %>, <%= result[0].lat %></span></p>
+                <P>Weather: <span> <%= result[0].weather %></span></P>
+                <p>Temperature: <span><%= result[0].temp %> ℃</span></p>
+                <p>Feels Like: <span><%= result[0].feelsLike %> ℃</span></p>
+                <p>Humidity: <span><%= result[0].humidity %>%</span></p>
+                <p>Visibility: <span><%= result[0].visibilty %> km</span></p>
+
+            </div>
+
+            <div class="col-2 flex-column ">
+
+                <div class="bg-light">
+                    <h4 class=""> <span> <%= day %> </span></h4>
+                </div>
+
+                <div class="bg-light">
+                    <h2 class="">Wind</h2>
+                    <p>Wind Degrees: <span> <%= result[0].windDeg %></span></p>
+                    <p>Wind Speed: <span><%= result[0].windSpeed %> m/s</span></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<%- include ("footer") -%>
